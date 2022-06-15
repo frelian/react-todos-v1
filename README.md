@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ## Wep App "TODOs"
-* Using localStorage, React, React icons, Context and functional components
+* Using localStorage, React, React icons, Context and functional components.
