@@ -33,7 +33,7 @@ function TodoForm () {
         <form onSubmit={onSubmit}>
             <textarea
                 value={ newTodoValue }
-                placeholder="Escribe una nueva tarea"
+                placeholder="Write a new task"
                 onChange={onChange}
             />
             <div className="TodoForm-buttonContainer">
@@ -42,13 +42,13 @@ function TodoForm () {
                     className="TodoForm-button TodoForm-button-cancel"
                     onClick ={onCancel}
                 >
-                    Cancelar
+                    Cancel
                 </button>
                 <button
                     className="TodoForm-button TodoForm-button-add"
                     type= "submit"
                 >
-                    Añadir
+                    Add
                 </button>
             </div>
         </form>

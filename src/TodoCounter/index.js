@@ -10,7 +10,7 @@ function TodoCounter() {
     //  y mejor desestructuro en los parametros del componete
 
     return (
-        <h2 className="TodoCounter">Has completado {completedTodos} de {totalTodos} TODOs</h2>
+        <h2 className="TodoCounter">You have completed {completedTodos} of {totalTodos} ToDos</h2>
     )
 }
 

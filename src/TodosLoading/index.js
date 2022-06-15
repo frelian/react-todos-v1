@@ -9,11 +9,11 @@ function TodosLoading({ error }) {
         <>
             <div className="LoadingTodo-container">
                 {/* <span className="LoadingTodo-completeIcon"></span> */}
-                <p className="LoadingTodo-text">Cargando TODOs...</p>
+                <p className="LoadingTodo-text">Loading...</p>
                 {/* <span className="LoadingTodo-deleteIcon"></span>  */}
             </div>
             <div style={{ textAlign: "center" }}>
-                <img src={loading1} alt="Imagen de carga" />
+                <img src={loading1} alt="Loading" />
             </div>
         </>
     )

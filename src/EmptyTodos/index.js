@@ -3,7 +3,7 @@ import React from "react";
 function EmptyTodos() {
     return (
         <div style={{ textAlign: "center" }}>
-            <p>¡Crea tu TODO!</p>
+            <p>¡Create your ToDo!</p>
         </div>
     )
 }
